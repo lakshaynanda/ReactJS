@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Greet } from './components/Greet'
+import Welcome from './components/Welcome'
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <Greet/>
+          <Welcome></Welcome>
         </p>
         <a
           className="App-link"
